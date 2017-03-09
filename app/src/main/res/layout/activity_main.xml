@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cricketscorecard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#bbdefb">
+
+        <TextView
+            style="@style/teamName"
+            android:text="TEAM A" />
+
+        <LinearLayout style="@style/rowLayout">
+
+            <Button
+                android:id="@+id/bowlsA"
+                style="@style/buttons"
+                android:text="Bowls" />
+
+            <TextView
+                android:id="@+id/bowlsFieldA"
+                style="@style/runs"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/fourA"
+                style="@style/buttons"
+                android:text="FOUr" />
+
+            <TextView
+                android:id="@+id/fourFieldA"
+                style="@style/runs"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/rowLayout">
+
+            <Button
+                android:id="@+id/wideA"
+                style="@style/buttons"
+                android:text="Wide" />
+
+            <TextView
+                android:id="@+id/wideFieldA"
+                style="@style/runs"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/sixA"
+                style="@style/buttons"
+                android:text="Six" />
+
+            <TextView
+                android:id="@+id/sixFieldA"
+                style="@style/runs"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/rowLayout">
+
+            <Button
+                android:id="@+id/wicketA"
+                style="@style/buttons"
+                android:text="Wicket" />
+
+            <TextView
+                android:id="@+id/wicketFieldA"
+                style="@style/runs"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/runA"
+                style="@style/buttons"
+                android:text="run +1" />
+
+            <TextView
+                android:id="@+id/runFieldA"
+                style="@style/runs"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/scoreName"
+            android:layout_gravity="left"
+            android:text="final score : " />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+
+            <TextView
+                style="@style/scoreName"
+                android:text="0" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" Runs" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" On " />
+
+            <TextView
+                style="@style/scoreName"
+                android:text="0" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" balls" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" with " />
+
+            <TextView
+                style="@style/scoreName"
+                android:text="0" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" wickets" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/teamName"
+            android:text="TEAM B" />
+
+        <LinearLayout style="@style/rowLayout">
+
+            <Button
+                android:id="@+id/bowlsB"
+                style="@style/buttons"
+                android:text="bowls" />
+
+            <TextView
+                android:id="@+id/bowlsFieldB"
+                style="@style/runs"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/fourB"
+                style="@style/buttons"
+                android:text="four" />
+
+            <TextView
+                android:id="@+id/fourFieldB"
+                style="@style/runs"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/rowLayout">
+
+            <Button
+                android:id="@+id/wideB"
+                style="@style/buttons"
+                android:text="Wide" />
+
+            <TextView
+                android:id="@+id/wideFieldB"
+                style="@style/runs"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/sixB"
+                style="@style/buttons"
+                android:text="six" />
+
+            <TextView
+                android:id="@+id/sixFieldB"
+                style="@style/runs"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/rowLayout">
+
+            <Button
+                android:id="@+id/wicketB"
+                style="@style/buttons"
+                android:text="wicket" />
+
+            <TextView
+                android:id="@+id/wicketFieldB"
+                style="@style/runs"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/runB"
+                style="@style/buttons"
+                android:text="run +1" />
+
+            <TextView
+                android:id="@+id/runFieldB"
+                style="@style/runs"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/scoreName"
+            android:layout_gravity="left"
+            android:text="final score : " />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp">
+
+            <TextView
+                style="@style/scoreName"
+                android:text="0" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" Runs" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" On " />
+
+            <TextView
+                style="@style/scoreName"
+                android:text="0" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" balls" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" with " />
+
+            <TextView
+                style="@style/scoreName"
+                android:text="0" />
+
+            <TextView
+                style="@style/scoreName"
+                android:text=" wickets" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
